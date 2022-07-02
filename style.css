@@ -1,0 +1,83 @@
+body {
+  background-color: #f5f5f5;
+  display: grid;
+  gap: 3.75rem;
+  margin: 0;
+  justify-content: center;
+  place-content: center;
+  height: 100vh;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #308cf8;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #9c9c9c;
+}
+.pagina {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  width: 900px;
+  gap: 12px;
+}
+
+.coluna {
+  margin-top: 40px;
+}
+.perfil {
+  gap: 20px;
+  display: grid;
+  background-color: #ffff;
+  justify-items: center;
+  border-radius: 4px;
+  align-items: center;
+  padding: 20px 60px;
+  border: 1px solid #f5f5f5;
+}
+
+.fotoperfil {
+  width: 100px;
+}
+
+.continuar {
+  background-color: #308cf8;
+  padding: 8px 12px;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.alternar {
+  display: grid;
+  background-color: #fff;
+  padding: 20px 60px;
+  text-align: center;
+  margin-top: 12px;
+  border-radius: 4px;
+  border: 1px solid #f5f5f5;
+}
+
+span {
+  color: #308cf8;
+}
+
+.baixar {
+  color: #000;
+  text-align: center;
+}
+
+.get-app {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 0px 5px;
+  justify-items: center;
+}
